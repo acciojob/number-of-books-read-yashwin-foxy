@@ -16,10 +16,7 @@ const library = [
   },
 ];
 
-const numberOfBooksRead = () => {
-  // write your code here
-};
 
-// Do not change the code below
+var numberOfReadBooks = numberOfBooksRead(library);
+console.log(numberOfReadBooks); // Output: 2
 
-alert(numberOfBooksRead());
